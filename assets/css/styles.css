@@ -38,22 +38,29 @@ button{
     opacity: 0.4;
 
 }
+
 .conteudo-formulario{
     width: 450px;
     height: 410px;
     background-color: rgba(255, 255, 255);
-    color: var(--preto); 
     position: relative ;
     margin: 0 auto;
     padding: 40px 50px;
     text-align: left;
-    margin: 150px  450px
-
-}
-.conteudo-formulario, titulo-login{
+    margin: 150px  450px;
     font-size: 15px;
 
+
+
 }
+
+
+.conteudo-formulario, titulo-login{
+    color: #000;
+    
+}
+
+
 
 .conteudo-formulario input{
     width: 100%;
@@ -63,6 +70,8 @@ button{
     color: var(--preto);
     border-bottom-color: rgb(89, 147, 255);
     padding-left: 15px;
+    border-width: thin;
+    border-color: #0062b8;
 
 }
 .aviso-formulario{
